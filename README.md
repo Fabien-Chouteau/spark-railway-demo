@@ -6,8 +6,6 @@ This demo simulates a railway network with trains, switches and signaling. The s
 
 ## Build Instructions
 
-## Build Instructions
-
 - Make sure to get all the Git submodules "$ git submodule update --init --recursive"
 - Download and install the compiler: [GNAT for ARM package](http://libre.adacore.com/download/configurations)
 - Start GPS (GNAT Programing Studio)
