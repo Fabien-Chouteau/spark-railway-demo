@@ -1,0 +1,10 @@
+with "Ada_Drivers_Library/boards/stm32f429_discovery.gpr";
+
+project SPARK_Railway_Demo Extends "Ada_Drivers_Library/examples/common/common.gpr" is
+
+   for Runtime ("Ada") use STM32F429_Discovery'Runtime("Ada");
+   for Object_Dir use "obj/";
+   for Main use ("src/train_demo.adb");
+   for Source_Dirs use ("src");
+
+end SPARK_Railway_Demo;
